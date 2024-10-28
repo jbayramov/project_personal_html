@@ -12,22 +12,23 @@
     </center>
     <hr>
     <h2>About me</h2>
-    <table style="width: 70%" >
-        <tr>
+    <table cellpadding="20" border="0" width="70%">
+        <tbody>
+        <tr style="height: 30px;">
         <td style="background-color:rgba(0, 0, 255, 0.619); color: white; text-align: center;" >Age:</td>
         <td style="background-color: lightgray;">35</td> 
         </tr>
         <br>
-        <tr>
+        <tr style="height: 30px;">
         <td style="background-color:rgba(0, 0, 255, 0.619); color: white; text-align: center;" >Location:</td>
         <td >Charlotte, NC</td>
         </tr>
         <br>
-        <tr>
+        <tr style="height: 30px;">
         <td  style="background-color:rgba(0, 0, 255, 0.619); color: white; text-align: center;" >Occupation: </td>
-        <td  style="background-color: lightgray;">Softare engineer</td>
+        <td  style="background-color: lightgray;">Software engineer</td>
         </tr>
-        <br>
+    </tbody>
     </table>
     <h3>Quick facts: </h3>
     <ul>
@@ -38,31 +39,34 @@
     </ul>
     <hr>
     <h2>My Favorites</h2>
-    <table style="width: 70%" >
-        <tr>
-        <td style="background-color:rgba(0, 0, 255, 0.619); color: white; text-align: center;" >Category:</td>
-        <td style="background-color:rgba(0, 0, 255, 0.619); color: white; text-align: center;" >Favorites</td> 
+    <table cellpadding="20" width="70%" >
+    <thead>
+        <tr style="height: 30px;">
+        <th style="background-color:rgba(0, 0, 255, 0.619); color: white; text-align: center;" >Category:</th>
+        <th style="background-color:rgba(0, 0, 255, 0.619); color: white; text-align: center;" >Favorites</th> 
         </tr>
-        <br>
-        <tr>
+    </thead>
+       <tbody>
+        <tr style="height: 30px;">
         <td style="background-color:rgba(0, 0, 255, 0.619); color: white; " >Movies &#127916;</td>
         <td style="background-color: lightgray;">The Godfather, Brave Heart</td>
         </tr>
         <br>
-        <tr>
+        <tr style="height: 30px;">
         <td  style="background-color:rgba(0, 0, 255, 0.619); color: white; " >Food &#127836;</td>
         <td  >Kababs, Sea food, cold drinks</td>
         </tr>
         <br>
-        <tr>
+        <tr style="height: 30px;">
         <td  style="background-color:rgba(0, 0, 255, 0.619); color: white; " >Hobbies &#128247; </td>
         <td  style="background-color: lightgray;">Photography, hiking, playing games</td>
         </tr>
+    </tbody>
     </table>
     <hr>
     <h2>Say Hello!</h2>
     <p >Contact Form</p>
-    <form  style="border-width:3px; border-style:solid; border-color:lightgrey>
+    <form  style="border-width:1px; border-style:solid; border-color:lightgrey>
         <label for="name">Name:</label><br>
         <input type="text" id="name" ><br>
         <br>
@@ -70,9 +74,8 @@
         <input type="email" id="email""><br><br>
 
         <label for="message">Message:</label><br>
-        <input type="text" id="message""><br><br>
-
-
+        <textarea id="message" cols="50" rows="5"></textarea><br>
+        <br>
         <input type="submit" value="Send &#128228;">
     </form>
     <br>
